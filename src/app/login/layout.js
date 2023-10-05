@@ -8,8 +8,7 @@ export default function Layout({ children }) {
    
   return (
     <div>
-        {
-            pathName!=="/login/loginteacher"?<ul className="list-none flex justify-center items-center gap-10 p-4 bg-slate-700 text-white">
+       <ul className="list-none flex justify-center items-center gap-10 p-4 bg-slate-700 text-white">
             <li>
               <Link href="/login">Login Main</Link>
             </li>
@@ -22,8 +21,7 @@ export default function Layout({ children }) {
               {" "}
               <Link href="/login/loginteacher">Teacher Login</Link>
             </li>
-          </ul>:null
-        }
+          </ul>
       
       {children}
     </div>
