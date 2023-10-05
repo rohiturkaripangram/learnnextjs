@@ -21,6 +21,10 @@ export default function Home() {
             {" "}
             <Link href="/about">Go to About page</Link>
           </li>
+          <li>
+            {" "}
+            <Link href="/productlist">Go to product page</Link>
+          </li>
         </ul>
       
     </div>
