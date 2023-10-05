@@ -23,7 +23,11 @@ export default function Home() {
           </li>
           <li>
             {" "}
-            <Link href="/productlist">Go to product page</Link>
+            <Link href="/productlist">Go to product page (client side)</Link>
+          </li>
+          <li>
+            {" "}
+            <Link href="/productlistserver">Go to product page (server side)</Link>
           </li>
         </ul>
       
