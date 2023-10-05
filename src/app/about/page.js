@@ -10,17 +10,12 @@ const About = () => {
         router.push(routername)
     }
   return (
-    <div>
-      <h1>About</h1>
-      <Link href="/">Go to Home page</Link>
-      <br/>
-      <Link href="/about/aboutcollege">Go to about college page</Link>
+    <div className='text-center'>
+     <h1 className="font-bold  mt-6 text-2xl text-yellow-500 mb-6">This is About page</h1>
+     <Link href="/" className="border-solid border-2 border-indigo-600 p-2 rounded-lg cursor-pointer">Go to HomePage</Link>
+      
+      
 
-<br/>
-<Link href="/about/aboutstudent">Go to about student page</Link>
-<br/>
-  <button onClick={()=>navigate("about/aboutcollege")}>College</button>
-  <button onClick={()=>navigate("about/aboutstudent")}>Student</button>
 
     </div>
   );

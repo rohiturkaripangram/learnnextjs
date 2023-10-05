@@ -3,7 +3,7 @@ import React from 'react'
 const loginstudent = () => {
   return (
     <div>
-        <h1>This is loginstudent page</h1>
+        <h1 className='text-center mt-6 text-2xl text-yellow-500'>This is login student page</h1>
         
         
         </div>

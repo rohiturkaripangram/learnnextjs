@@ -1,19 +1,13 @@
-"use client"
-import Link from "next/link"
-import {useRouter} from 'next/navigation'
+"use client";
+import Link from "next/link";
 
-const Login=()=>{
-    const router=useRouter();
-    return(
-        <div>
-        <h1 className="font-bold">Login page</h1>
-        <Link href="/">Go to Home page</Link>
-        <br/>
-        <button onClick={()=>router.push("/login/loginstudent")}>Go to student login page</button>
-        <br/>
-        <button onClick={()=>router.push("/login/loginteacher")}>Go to Tecaher login page</button>
-        </div>
-    )
-}
+const Login = () => {
+  return (
+    <div className='text-center'>
+      <h1 className="font-bold  mt-6 text-2xl text-yellow-500 mb-6">Login page</h1>
+      <Link href="/" className="border-solid border-2 border-indigo-600 p-2 rounded-lg cursor-pointer">Go to Home page</Link>
+    </div>
+  );
+};
 
 export default Login;
